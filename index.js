@@ -9,3 +9,7 @@ function iterate(callback) {
   odds.forEach(callback)
   return odds;
 }
+
+function doToArray(array, callback) {
+  array.forEach(callback);
+}
